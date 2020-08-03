@@ -42,7 +42,7 @@ class App extends React.Component {
 
   clearList = () => {
     this.setState({
-      todos: this.state.todos.filter()
+      todos: this.state.todos.filter(item => item.completed === false)
     })
   }
 
