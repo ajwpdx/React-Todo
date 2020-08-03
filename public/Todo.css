@@ -1,0 +1,30 @@
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    background-color: #6c5b7b;
+    width: 20%;
+    margin: 1rem;
+    color: #f67280;
+}
+
+.App {
+    background-color: #355c7d;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin: 1rem;
+}

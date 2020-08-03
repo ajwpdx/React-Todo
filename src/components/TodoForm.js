@@ -22,6 +22,11 @@ class TodoForm extends React.Component {
         })
     }
 
+    handleClear = e => {
+        e.preventDefault()
+        this.props.clearList()
+    }
+
     render() {
         return (
             <div>
@@ -38,7 +43,7 @@ class TodoForm extends React.Component {
                     </label>
                     <button>Submit</button>
                 </form>
-                <p>TodoForm</p>
+                <button onClick={this.handleClear}>Clear Finished</button>
             </div>
         )
     }
